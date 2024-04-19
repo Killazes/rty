@@ -1,0 +1,37 @@
+html {
+    font font-family:Arial;
+    font-size: 18px;
+}
+
+body {
+    width: 45rem;
+    margin:auto ;
+}
+
+img {
+    width: 100%;
+}
+h1,h2,h3 {
+    color: #23735d;
+}
+ul, ol {
+    padding: 0;
+}
+.turq {
+    background-color: #dff5ef;
+    border: #734a23 2px solid;
+}
+.quote {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+table, tr, td,th {
+    border: black 1px solid
+    border-collapse: collapse;
+}
+ul>li::before {
+    content: ""
+    color: #23735D;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
